@@ -19,3 +19,5 @@ CREATE TABLE retail_sales (
 SELECT * FROM retail_sales limit 10;
 
 SELECT COUNT(*) FROM retail_sales;
+
+SELECT * FROM retail_sales WHERE transactions_id is null;
